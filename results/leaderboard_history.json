@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "competition": "CUHK-X Competition — Large Model Track",
+  "competition_url": "https://www.kaggle.com/competitions/cuhk-x-competition-large-model-track",
+  "scope": "Curated public-score milestones, not a complete submission log or a causal attribution of every gain.",
+  "best_confirmed_public_score": 0.88304,
+  "preserved_best_csv_sha256": "db04ccbb395c81a8c88dd480b2995ca2242ef1620af7c47fee504707c0f63e45",
+  "latest_public_snapshot": {
+    "observed_at_utc": "2026-09-15T19:34:00Z",
+    "time_precision": "minute",
+    "public_score": 0.88304,
+    "public_rank": 24,
+    "displayed_team_count": 213,
+    "team_entries": 27,
+    "evidence": "Fresh live Public-tab browser observation; structured transcript retained privately.",
+    "private_score": null,
+    "final_rank": null,
+    "is_final_result": false
+  },
+  "milestones": [
+    {
+      "id": "attributed_public_baseline",
+      "method": "Published Fususu / phuongncn prediction vector",
+      "public_score": 0.77777,
+      "observed_at_utc": null,
+      "evidence_type": "reported_public_baseline_matched_to_archived_notebook_version_2",
+      "baseline_source": "https://www.kaggle.com/code/phuongncn/lb-0-77777-exact-submission-research-handoff",
+      "attribution": "Third-party starting artifact; original generating model pipeline unavailable.",
+      "this_project_submission": false
+    },
+    {
+      "id": "pre_extension_reference",
+      "method": "Previously confirmed project snapshot",
+      "public_score": 0.85380,
+      "observed_at_utc": null,
+      "documented_as_previous_best_at_utc": "2026-09-12T15:42:22.876884Z",
+      "evidence_type": "prior_best_in_completed_submission_observation",
+      "note": "Preceding development is outside this curated progression."
+    },
+    {
+      "id": "multi_action_bundle",
+      "method": "Action-bundle MULTI transfer",
+      "observed_at_utc": "2026-09-12T15:42:22.876884Z",
+      "public_score": 0.86549,
+      "previous_best": 0.85380,
+      "delta": 0.01169,
+      "changed_answers": 6,
+      "csv_sha256": "d0f23e22b9d947ffe0296105364fcbfc9ec20199731e1c8b642ecc4d309d4fee",
+      "train": {"n": 13, "candidate_correct": 11, "local_controls_correct": [4, 7], "fixed_gate_passed": true},
+      "evidence_type": "completed_submission_public_score_observation"
+    },
+    {
+      "id": "combination_action_bundle",
+      "method": "Action-bundle COMBINATION transfer",
+      "observed_at_utc": "2026-09-12T16:11:23.330124Z",
+      "public_score": 0.87134,
+      "previous_best": 0.86549,
+      "delta": 0.00585,
+      "changed_answers": 4,
+      "csv_sha256": "99bddc04377211332ec16432f9151daed63ba6c42bfcad8a0aaf23031aeff49c",
+      "train": {"n": 28, "candidate_correct": 27, "local_controls_correct": [22, 24], "fixed_gate_passed": true},
+      "evidence_type": "completed_submission_public_score_observation"
+    },
+    {
+      "id": "multi_second_quarter",
+      "method": "Second-quarter non-sequence MULTI transfer",
+      "observed_at_utc": "2026-09-12T22:32:23.146959Z",
+      "public_score": 0.87426,
+      "previous_best": 0.87134,
+      "delta": 0.00292,
+      "changed_answers": 4,
+      "csv_sha256": "0d52c6c6bd130d96c061bb6a0176440cd79b44a3627be803ed91a8338ed8c3d3",
+      "train": {"n": 37, "candidate_correct": 35, "local_controls_correct": [30, 29], "fixes": [5, 6], "breaks": [0, 0], "fixed_gate_passed": true},
+      "evidence_type": "completed_submission_and_public_leaderboard_observation"
+    },
+    {
+      "id": "harn_single",
+      "method": "Whole eligible HARn SINGLE exploratory transfer",
+      "observed_at_utc": "2026-09-13T22:16:23.318124Z",
+      "public_score": 0.88011,
+      "previous_best": 0.87426,
+      "delta": 0.00585,
+      "changed_answers": 9,
+      "csv_sha256": "7d96c4121045b0c8a14fc84ab29afbda9290280a55b9d17160499fdd67eda625",
+      "train": {"n": 34, "candidate_correct": 31, "local_controls_correct": [32, 28], "original_fixed_gate_passed": false},
+      "release_type": "separately_documented_exploratory_evaluation_after_failed_gate",
+      "evidence_type": "completed_submission_and_public_leaderboard_observation"
+    },
+    {
+      "id": "direct_order",
+      "method": "Whole-context direct ORDER exploratory transfer",
+      "observed_at_utc": "2026-09-13T23:44:03.977712Z",
+      "public_score": 0.88304,
+      "previous_best": 0.88011,
+      "delta": 0.00293,
+      "changed_answers": 5,
+      "csv_sha256": "db04ccbb395c81a8c88dd480b2995ca2242ef1620af7c47fee504707c0f63e45",
+      "train": {"n": 36, "candidate_correct": 26, "local_control_correct": 24, "fixes": 4, "breaks": 2, "original_fixed_gates_passed": false},
+      "release_type": "separately_documented_exploratory_evaluation_after_failed_gates",
+      "evidence_type": "completed_submission_after_fresh_reload"
+    }
+  ],
+  "selected_non_improving_public_evaluations": [
+    {"method": "ORDER crop overlay", "public_score": 0.87426, "previous_best": 0.87426, "outcome": "tie"},
+    {"method": "Local MANNER query-pair overlay", "public_score": 0.85672, "previous_best": 0.87426, "outcome": "regression"},
+    {"method": "Saved direct-priority/crop ORDER union", "public_score": 0.88304, "previous_best": 0.88304, "outcome": "tie", "observed_at_utc": "2026-09-13T23:56:49.613349Z", "changed_answers": 1}
+  ],
+  "interpretation": {
+    "five_extension_gain_from_085380": 0.02924,
+    "public_baseline_to_best_difference": 0.10527,
+    "baseline_difference_is_not_isolated_causal_gain": true,
+    "development_cohorts_reused": true,
+    "original_failed_gates_remain_failed": true,
+    "complete_fresh_input_reproduction_available": false,
+    "inherited_manner_answers_in_best": 144,
+    "inherited_harn_object_answers_in_best_from_recorded_ownership": 20,
+    "public_score_does_not_establish_private_score_gain": true
+  }
+}
