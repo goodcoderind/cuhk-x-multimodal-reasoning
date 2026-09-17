@@ -4,7 +4,7 @@ I am sharing the code and a technical report from my CUHK-X Large Model Track wo
 
 **[GitHub repository — cuhk-x-multimodal-reasoning](https://github.com/goodcoderind/cuhk-x-multimodal-reasoning)**
 
-The best recorded public score is **0.88304**. On 15 September 2026, approximately 19:34 UTC, the public leaderboard showed Obro at **24/213 teams**. This is a dated public snapshot; the final private result is not yet available.
+The best recorded public score is **0.88304**. On 15 September 2026, approximately 19:34 UTC, the public leaderboard showed Obro at **24/213 teams**. This is a dated public snapshot; a final private result was not available at that observation.
 
 ## Credit and scope
 
